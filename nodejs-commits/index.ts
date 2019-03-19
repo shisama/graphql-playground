@@ -28,7 +28,7 @@ client.query({ query: gql`{
 	repository(owner:"nodejs", name:"node") {
 		object(expression:"master"){
 			... on Commit {
-				history(first: 30) {
+				history(since: "2019-01-01T00:00:00Z", until: "2019-01-01T23:59:59Z") {
 					edges{
 						node{
 							committedDate
