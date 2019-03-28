@@ -16,8 +16,7 @@
     "apollo-link-http": "^1.5.12",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",
-    "node-fetch": "^2.3.0",
-    "node-jq": "^1.5.0"
+    "node-fetch": "^2.3.0"
   },
   "devDependencies": {
     "@types/node-fetch": "^2.1.6",
